@@ -1,0 +1,249 @@
+.card{
+  border: 1px solid hsl(0, 0%,80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%,0%,0.1);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+
+}
+
+.card .card-image{
+  max-width:60% ;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card .card-header{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0%;
+  color: rgb(1, 12, 20);
+}
+
+.card .card-text{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(1, 12, 30);
+}
+
+.btn{
+  background-color: hsl(200, 100%,50%);
+  color: antiquewhite;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 80px;
+  cursor: pointer;
+}
+
+.student{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+
+  padding: 10px;
+  border: 1px solid hsla(0, 0%,50%,0.1);
+}
+
+.student p{
+  margin: 0;
+}
+
+.welcome{
+  background-color: rgba(0, 255, 0, 0.725);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  padding: 20px;
+  border-radius: 10px;
+  border: 5px;
+  margin: 0%;
+}
+.alert{
+  background-color: rgba(255, 0, 0, 0.704);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  padding: 20px;
+  border-radius: 10px;
+  border: 5px;
+
+  margin: 0%;
+}
+
+.category{
+  font-size: 2.5em;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.895);
+  margin-bottom: 10px;
+  text-align:center;
+  border:3px solid;
+  border-radius: 5px;
+  background-color: rgba(0, 229, 255, 0.937);
+
+}
+
+.items{
+  font-size: 2em;
+  list-style: none;
+  color: rgba(0, 0, 0, 0.949);
+  text-align: justify;
+  margin: 0;
+  border-radius: 10px;
+}
+
+.items li:hover{
+  color: cadetblue;
+  cursor:pointer;
+}
+
+.counter-container{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.count-display{
+  font-size: 10em;
+  margin-top: 0;
+  margin-bottom: 50px;
+
+}
+
+.counter-button{
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0px 5px;
+  background-color: rgba(105, 156, 228, 0.937);
+  color: antiquewhite;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(8, 8, 8);
+}
+
+.color-picker-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  /* margin: 50px; */
+  font-size:  4rem;
+  color: aliceblue;
+}
+
+.color-display{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid hsl(0, 0%,80%);
+  border-radius: 25px;
+  margin-bottom: 25px;
+  transition: 0,25s ease;
+}
+
+.color-display p{
+  color: rgb(19, 18, 15);
+  font-size:2rem;
+  text-align: center;
+}
+
+label{
+  font-size:  1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="color"]{
+  width: 75px;
+  height:50px;
+  padding:5px;
+  border-radius: 10px;
+  border: 3px solid hsl(0, 0%,80%);
+}
+
+.to-do-list{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+button{
+  font-size: 1.7 rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: antiquewhite;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: background-color 0.5 ease;
+}
+
+.add-btn{
+  background-color: rgb(107, 166, 12);
+}
+.add-btn:hover{
+  background-color: rgba(28, 230, 21, 0.937);
+}
+
+.delete-button{
+  background-color: rgba(204, 27, 27, 0.997);
+}
+
+.delete-button:hover{
+  background-color: rgb(199, 153, 4);
+} 
+
+.move-button{
+  background-color: rgb(6, 108, 108);
+}
+
+.move-button:hover{
+  background-color: rgb(13, 192, 192);
+}
+
+input[type="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid hsla(0, 0%,80%,0.5);
+  border-radius: 10px;
+  color: hsla(0, 0%,0%,0.5);
+
+}
+
+ol{
+  padding: 0%;
+}
+li{
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: aliceblue;
+  margin: 10px;
+  border: 3px solid hsla(0, 0%,80%,0.75);
+  border-radius: 10px;
+  display:flex;
+  align-items: center;
+
+}
+
+.text{
+  flex: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.delete-button,.move-button{
+  padding:8px 12px;
+  font-size: 1.3rem;
+  margin: 10px;
+}
